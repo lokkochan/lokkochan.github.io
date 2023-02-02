@@ -1,0 +1,152 @@
+body{
+    margin:0;
+}
+div{
+    padding: 5px;
+}
+#content{
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+header{
+    flex:0 0 10%;
+    display: flex;
+    background-color: #fcfcfc;
+    justify-content: center;
+    border-top: 2px solid purple;
+    border-bottom: 2px solid grey;
+}
+
+div#current{
+    margin:0px;
+    padding:15px;
+    color:purple;
+}
+
+
+a#head{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    margin: 0px;
+    display: block;
+}
+
+a#self{
+    text-decoration: underline;
+    padding: 15px;
+    margin: 0px;
+    display: block;
+}
+
+div#container{
+    flex:2 0 80%;
+    display:flex;
+    flex-direction: row;
+}
+footer{
+    flex:0 0 10%;
+    display: flex;
+    background-color: #fcfcfc;
+    justify-content: center;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+div#left{
+    flex:0 0 20%;
+    text-align: center;
+    margin-left: 100px;
+    border-right:1px double #ccc;
+    margin-block-end: 5%;
+    margin-block-start: 5%;
+}
+
+img{
+    border-radius: 50%;
+}
+
+div#right{
+    flex:1 0 50%;
+    margin-left: 100px;
+}
+
+progress {
+    border: none;
+    background: blueviolet;
+    border-radius: 50%;
+}
+  
+progress {
+    color: lightblue;
+}
+  
+progress::-moz-progress-bar {
+    background: lightblue;
+}
+  
+progress::-webkit-progress-value {
+    background: blueviolet;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+  
+progress::-webkit-progress-bar {
+    background: grey;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+@media(max-width: 800px){
+    div#container{
+        flex-direction: column;
+    }
+}
+
+p#creditial{
+    font-size: 10px;
+    color: grey;
+    padding-top: 10%;
+}
+
+td#education{
+    padding-right: 30px;
+    font-size: larger;
+    margin-right: 30px;
+}
+td#eduright{
+    padding-left: 30px;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+td#place{
+    padding-bottom: 50px;
+}
+
+td#rightplace{
+    padding-left: 30px;
+    padding-bottom: 50px;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+ul{
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+}
+ul > li:before {
+    content: "- ";
+    text-indent: -5px;
+  }
+
+li{
+    padding: 10px;
+    margin: 10px;
+}
