@@ -105,6 +105,12 @@ progress::-webkit-progress-bar {
 @media(max-width: 800px){
     div#container{
         flex-direction: column;
+        border-bottom: 2px;
+    }
+    div#left{
+        border-bottom: 2px double #ccc;
+        border-right:none;
+        border-block-start: 5%;
     }
 }
 
